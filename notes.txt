@@ -10,3 +10,6 @@ After committing <magic_squared.txt>, the file no longer appeared when I listed 
 	the directory while the <master> branch was checked out
 The above two changes in <notes.txt> were no longer in the file after committing to the <master>
 	branch
+When checking out a branch, all files that were added to the previous branch seem to be added
+	to the currently checked out branch. After commit, behaves as though you had both added and
+	committed in the current branch
