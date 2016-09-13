@@ -1,3 +1,10 @@
 [git reset --hard] only deletes a file if you've run [git add] on the new file
 [git reset --hard] undoes any changes that have happened to files that have been added to the
 	repository
+Creating a new file while in a branch and running [git add] on it will make the file available
+	to any of the existing branches
+	For example, rabbit_squared.txt appeared in the directory no matter which branch was checked
+	out and running [git add] on the file while the <magic_squared> branch was checked out still
+	appared as added when a different branch was checked out
+After committing <magic_squared.txt>, the file no longer appeared when I listed the files in
+	the directory while the <master> branch was checked out
