@@ -13,3 +13,4 @@ The above two changes in <notes.txt> were no longer in the file after committing
 When checking out a branch, all files that were added to the previous branch seem to be added
 	to the currently checked out branch. After commit, behaves as though you had both added and
 	committed in the current branch
+[git merge <target>] adds files from <target> into the currently checked out branch
