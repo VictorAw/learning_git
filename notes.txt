@@ -8,3 +8,5 @@ Creating a new file while in a branch and running [git add] on it will make the 
 	appared as added when a different branch was checked out
 After committing <magic_squared.txt>, the file no longer appeared when I listed the files in
 	the directory while the <master> branch was checked out
+The above two changes in <notes.txt> were no longer in the file after committing to the <master>
+	branch
